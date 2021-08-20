@@ -1,0 +1,129 @@
+*{
+    background-color: darkgrey;
+}
+.bgbox{
+    border: 7px solid red;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px purple;
+}
+#heading{
+    display: flex;
+    width: 200px;
+    height: 120px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: maroon;
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: oblique;
+    font-weight: 900; 
+    text-shadow: 3px 3px 3px grey;
+}
+
+.container{
+    width: 99.5%;
+    height: 550px;
+    border: 5px solid green;
+    position: relative;
+}
+
+.boxes{
+    height: 190px;
+    width: 200px;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px purple;
+}
+
+#box2{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#box3{
+    position: absolute;
+    bottom: 50px;
+}
+
+#box4{
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+}
+
+#submit-btn{
+    background-color: red;
+    border-radius: 10px;
+}
+
+#fixed-tab{
+    display: grid;
+    grid-template-columns: 300px 140px;
+    width: 450px;
+    border: 7px solid red;
+    border-radius: 10px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px purple;
+    color: darkred;
+    font-style: oblique;
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#block1{
+    background-color: greenyellow;
+}
+
+#block2{
+    background-color: greenyellow;
+    font-size: 10px;
+}
+
+.container2{
+    background-color: green;
+    line-height: 1.6;
+    width: 660px;
+    height: 600px;
+    border: 5px solid purple;
+    margin-left: 380px;
+    text-align: center;
+    justify-content: space-between;
+    font-style: oblique;
+    margin-bottom: 100px;
+}
+
+#fruits{
+    display: inline-block;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    width: 320px;
+    height: 250px;
+    border: 3px solid gray;
+}
+
+#vegetables{
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    width: 320px;
+    height: 250px;
+    border: 3px solid gray;
+}
+
+#other{
+    margin-top: 5px;
+    height: 250px;
+    background-color: lightgoldenrodyellow;
+    border: 3px solid gray;
+
+}
